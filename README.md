@@ -1,4 +1,4 @@
-r = do_stuff(p)
-  do_other_stuff(p, r)
+resources = create_gcp_resources(project)
+deploy(project, resources)
 
 
